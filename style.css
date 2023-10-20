@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container_login,
+.container_quiz {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 50px;
+  background-color: rgb(252, 240, 227);
+  box-shadow: 0 0 5px rgb(210, 210, 210);
+  border-radius: 5px;
+}
+.container_login {
+  text-align: center;
+}
+.container_login h2 {
+  font-family: "Caveat";
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(82, 82, 82);
+}
+.container_login input {
+  display: block;
+  margin: 20px auto 5px;
+  width: 270px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+}
+.container_login .btn,
+.next_btn {
+  width: 100px;
+  padding: 10px 15px;
+  margin-top: 20px;
+  background-color: rgb(71, 71, 71);
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.btn a {
+  text-decoration: none;
+  color: azure;
+}
+.container_login p {
+  width: 270px;
+  font-size: 14px;
+  margin: auto;
+  text-align: left;
+  padding-left: 20px;
+  color: rgb(158, 158, 158);
+}
+.quiz_info {
+  display: flex;
+  justify-content: space-between;
+}
+.question {
+  text-align: left;
+  padding: 15px 0;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 20px;
+  color: rgb(71, 71, 71);
+  box-shadow: 0 0 3px rgb(171, 171, 172);
+}
+.answers_container {
+  box-shadow: 0 0 3px rgb(171, 171, 172);
+  margin: 30px 0;
+}
+.answer {
+  padding: 10px 0;
+  font-size: 18px;
+  color: rgb(84, 84, 84);
+}
+.next_btn {
+  margin: -8px 5px 0 400px;
+  color: azure;
+}
+.result {
+  padding: 15px;
+  margin-top: 30px;
+  font-family: "Caveat";
+  color: rgb(176, 5, 5);
+  background-color: rgb(250, 227, 203);
+  text-transform: capitalize;
+  font-size: 18px;
+  text-align: center;
+}
+.result h3 {
+  font-size: 35px;
+}
+.result span {
+  font-size: 18px;
+}
